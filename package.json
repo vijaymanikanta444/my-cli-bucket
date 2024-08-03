@@ -1,0 +1,21 @@
+{
+  "name": "my-cli-bucket",
+  "version": "1.0.1",
+  "description": "This is the bucket to add all the command line interface commands and there execution scripts",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-todo-app": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "simple-git": "^3.25.0"
+  }
+}
